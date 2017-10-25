@@ -31,5 +31,5 @@ The architecture of our Android apps is based on the [MVP](https://en.wikipedia.
     * Dispatch request using DataManager
     * Return Observables for Presenter
     * Model know __WHAT__ display
-
+# Support multi-language
 https://medium.com/google-developer-experts/android-strings-xml-things-to-remember-c155025bb8bb
