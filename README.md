@@ -1,5 +1,26 @@
 # sigma-android-boilerplate
 This is a boilerplate for my team
+config with sonar
+file : sonar-project.properties 
+
+#----- Default SonarQube server
+sonar.host.url=http://localhost:9000/
+# must be unique in a given SonarQube instance
+sonar.projectKey=plusfun
+#184fa8a35ee7f6282b599a8e8427fcc44ee3f2de
+# this is the name and version displayed in the SonarQube UI. Was mandatory prior to SonarQube 6.1.
+sonar.projectName=Plus
+sonar.projectVersion=1.1
+sonar.java.binaries=PlusFun/PlusFun/app/build/intermediates/classes/debug/plusfun/cyfrowy/pl/plusfun
+sonar.java.libraries=/Users/vagrant/Library/Android/sdk/platforms/android-26/android.jar
+# Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.
+# This property is optional if sonar.modules is set.
+sonar.sources=PlusFun/PlusFun/app/src/main/java/pl/plusfun
+sonar.login=admin
+sonar.password=admin
+# Encoding of the source code. Default is default system encoding
+sonar.sourceEncoding=UTF-8
+
 
 # Architecture Guidelines
 
